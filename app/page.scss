@@ -1,0 +1,315 @@
+
+
+    .home-header{
+        background-image: url(../images/banner-6.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .home-detail{
+         line-height:1.5;
+        }
+    }
+    
+    .title-section{
+        background-image: url(../images/grafiti.svg);
+        background-position:left;
+        background-repeat: no-repeat;
+       
+    }
+    .flex-section{
+        @media(max-width:800px){
+            display:none
+        }
+    }
+
+    .home-section{
+        background-image: url(../images/background.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding:100px 0 30px;
+        .home-title{
+            background-image: url(../images/grafiti.svg);
+            background-position:left;
+            background-repeat: no-repeat;
+        }
+
+
+ 
+        .home-wrapper{
+            display:grid;
+            grid-template-columns: repeat(2,1fr);
+            gap:40px;
+            @media(max-width:1050px){
+                display:grid;
+                grid-template-columns:1fr;
+            }
+        }
+    
+     .home-image{
+        background-image: url(../images/girl-gym.svg);
+        background-position:right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @media(max-width:600px){
+            display:none;
+        }
+      
+     }
+
+  
+    }
+
+
+    .class-section{
+        .class-title{
+            background-image: url(../images/grafiti.svg);
+            background-position:left;
+            background-repeat: no-repeat;
+        }
+
+   
+    }
+
+
+
+/* class content section*/
+
+.class-section{
+    background-image:linear-gradient(transparent,transparent), url(../images/1.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+}
+
+    .class-container{
+        padding:50px 0 50px;
+    }
+
+    .class-content {
+        position: relative;
+        overflow: hidden;
+        width:100%; 
+        height:100%; 
+        
+        h2{
+            background-image: url(../images/grafiti.svg);
+            background-position:left;
+            background-repeat: no-repeat;
+        }
+      }
+
+      .image-class{
+        height:420px;
+        object-fit: cover;
+      }
+      
+      .class-text{
+        position: absolute;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height:420px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond semi-transparente */
+        color: white;
+        cursor: pointer;
+        transition: top 0.3s ease-in-out; /* Transition douce */
+      }
+      
+      .class-content:hover .class-text{
+        top: 0;
+      }
+
+
+      .class-content:hover .class-title{
+        display:none
+      }
+
+      /*NOTE SECTION*/
+
+      .note-section{
+        background-image:linear-gradient(transparent,transparent), url(../images/banner10.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        color: #fff;
+  
+      }
+
+
+      /*TEAM SECTION*/
+
+      .team-section{
+        background-image: url(../images/background.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      .team-container{
+        position: relative;
+        overflow: hidden;
+        width:100%; 
+        height:100%;
+        border:1px solid silver;
+        &:hover{
+            border:none;
+        }
+      }
+
+      .team-image{
+        height:420px;
+        object-fit:cover;
+      }
+   
+        .team-icons{
+            position: absolute;
+            top:-100%;
+            left: 0;
+            width:100%;
+            height:420px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond semi-transparente */
+            color: white;
+            cursor: pointer;
+            transition: top 0.3s ease-in-out; /* Transition douce */
+        }
+        .team-container:hover .team-icons{
+            top:0;
+            
+        }
+
+        .team-container:hover .text{
+          display:none
+        }
+      
+        svg{
+            &:hover{
+                background-color: rgb(194, 5, 5);
+            }
+        }
+
+
+
+        /*PRICING SECTION*/
+
+        .pricing-section{
+            background-image:url(../images/pricing.jpg);
+            background-repeat: no-repeat;
+            background-position:center;
+            background-size: cover;
+            color: #fff;
+           .pricing-text{
+            p{
+            font-size:20px;
+            }
+            p::before {
+                content: '\2714';
+                color: #fff;
+                font-size: 1.5rem;
+              
+            }
+           }
+
+
+           .pricing-bg{
+            background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/timi.jpg);
+            background-repeat: no-repeat;
+            background-position:center;
+            background-size: cover;
+
+            &:hover{
+                background-image:linear-gradient(rgba(248, 132, 132, 0.7),rgba(179, 84, 84, 0.7)), url(../images/gallery10.jpg);
+                background-repeat: no-repeat;
+                background-position:center;
+                background-size: cover;
+                color:#fff
+            }
+         
+           }
+           
+
+           .pricing-bg-1{
+            background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/timi1.jpg);
+            background-repeat: no-repeat;
+            background-position:center;
+            background-size: cover;
+            &:hover{
+                background-image:linear-gradient(rgba(248, 132, 132, 0.7),rgba(179, 84, 84, 0.7)), url(../images/gallery15.jpg);
+                background-repeat: no-repeat;
+                background-position:center;
+                background-size: cover;
+            }
+           }
+
+
+           .pricing-bg-2{
+            background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/timi2.jpg);
+            background-repeat: no-repeat;
+            background-position:center;
+            background-size: cover;
+            &:hover{
+                background-image:linear-gradient(rgba(248, 132, 132, 0.7),rgba(179, 84, 84, 0.7)), url(../images/gallery9.jpg);
+                background-repeat: no-repeat;
+                background-position:center;
+                background-size: cover;
+            }
+           }
+
+        }
+
+        .gallery-section{
+            background-image:url(../images/shape-17.png);
+            background-repeat: no-repeat;
+            background-position:center;
+            background-size: cover; 
+        }
+
+
+        .icon-content {
+            position: relative;
+            overflow: hidden;
+            width:100%; /* Ajustez selon la taille de votre image */
+            height:100%; /* Ajustez selon la taille de votre image */
+            Image{
+                border-radius:30px;
+              }
+          }
+          
+          .icon-detail {
+            position: absolute;
+            top: -100%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond semi-transparente */
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            transition: top 0.3s ease-in-out; /* Transition douce */
+          }
+          
+          .icon-content:hover .icon-detail {
+            top: 0;
+          }
+      
+        
+          .notice-section{
+            background-image:url(../images/banner-10.jpg);
+            background-repeat: no-repeat;
+            background-position:center;
+            background-size: cover; 
+          }
