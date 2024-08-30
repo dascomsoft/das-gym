@@ -7,15 +7,26 @@
         background-size: cover;
         .home-detail{
          line-height:1.5;
+
+         .image-svg{
+          @media(max-width:1900px){
+            display: none;
+          }
+         }
         }
     }
+
+
     
     .title-section{
         background-image: url(../images/grafiti.svg);
         background-position:left;
         background-repeat: no-repeat;
-       
-    }
+        filter: invert(100%) sepia(100%) saturate(0%) brightness(200%);
+        color:white;
+  
+      }
+
     .flex-section{
         @media(max-width:800px){
             display:none
@@ -28,11 +39,8 @@
         background-repeat: no-repeat;
         background-size: cover;
         padding:100px 0 30px;
-        .home-title{
-            background-image: url(../images/grafiti.svg);
-            background-position:left;
-            background-repeat: no-repeat;
-        }
+       
+     
 
 
  
@@ -192,11 +200,7 @@
           display:none
         }
       
-        svg{
-            &:hover{
-                background-color: rgb(194, 5, 5);
-            }
-        }
+     
 
 
 

@@ -38,7 +38,12 @@ export default function Home() {
             <div className="flex">
               <div>
                 <h2 className="title-section font-extrabold mb-7 ps-7 py-4">FIND YOUR ENERGY</h2>
-                <h1 className="text-5xl font-bold mb-2">MAKE YOUR BODY <br /> FIT & PERFECT</h1>
+                <h1 className="text-5xl font-bold mb-2">MAKE YOUR BODY </h1>
+                <h2 className="text-5xl mt-3 text-red-500">FIT & PERFECT</h2>
+                <p className="mt-4">Gymhen an unknown printer took a galley of type and <br />
+                  It has survived unknown printercenturies.</p>
+              </div>
+              <div>
               </div>
               <div className="rotate-section rotate-90  text-white">
                 <div className="flex-section flex items-center">
@@ -67,7 +72,8 @@ export default function Home() {
               </div>
             </div>
             <br />
-            <Link href="/program" className="block w-auto max-w-[250px] text-white font-bold rounded-full bg-red-600 transition duration-500 ease-in-out  hover:bg-white hover:text-black text-center py-3 px-4 mt-7">JOIN WITH US</Link>
+            <Link href="/program" className="block w-auto max-w-[250px] text-black font-bold rounded-full bg-white transition duration-500 ease-in-out  hover:bg-red-600 hover:text-white text-center py-3 px-4 mt-7">JOIN WITH US</Link>
+
           </div>
         </div>
       </div>

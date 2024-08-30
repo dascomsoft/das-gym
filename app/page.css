@@ -8,11 +8,18 @@
 .home-header .home-detail {
   line-height: 1.5;
 }
+@media (max-width: 1900px) {
+  .home-header .home-detail .image-svg {
+    display: none;
+  }
+}
 
 .title-section {
   background-image: url(../images/grafiti.svg);
   background-position: left;
   background-repeat: no-repeat;
+  filter: invert(100%) sepia(100%) saturate(0%) brightness(200%);
+  color: white;
 }
 
 @media (max-width: 800px) {
@@ -27,11 +34,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0 30px;
-}
-.home-section .home-title {
-  background-image: url(../images/grafiti.svg);
-  background-position: left;
-  background-repeat: no-repeat;
 }
 .home-section .home-wrapper {
   display: grid;
@@ -174,10 +176,6 @@
 
 .team-container:hover .text {
   display: none;
-}
-
-svg:hover {
-  background-color: rgb(194, 5, 5);
 }
 
 /*PRICING SECTION*/
