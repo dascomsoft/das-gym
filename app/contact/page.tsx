@@ -10,7 +10,7 @@ function contact() {
         <div className="header-section py-[12rem]">
         <div className="container mx-auto px-4">
           <h1 className="text-5xl font-bold">Get In<span className=' text-yellow-300'> Touch</span></h1>
-          <p className="text-xl mt-7">We're here to support your gymnastics journey—reach out to us with <br /> any questions, and let's connect today!..</p>
+          <p className="text-xl mt-7">We are here to support your gymnastics journey—reach out to us with <br /> any questions, and let us connect today!..</p>
           <p className='mt-7 text-3xl font-semibold text-yellow-300'>Contact Us/</p>
         </div>
       </div>

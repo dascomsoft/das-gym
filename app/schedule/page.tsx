@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import './schedule.css'
 
-// Données fictives de l'emploi du temps
 
 const scheduleData = {
 
@@ -62,7 +61,19 @@ const scheduleData = {
 
 };
 
-function schedule() {
+
+interface ClassItem {
+  className: string;
+  time: string;
+  trainer: string;
+}
+
+
+
+
+
+
+function Schedule() {
   // État pour le jour sélectionné
   const [selectedDay, setSelectedDay] = useState('Monday');
 
@@ -92,7 +103,7 @@ function schedule() {
         </div>
         {/* Affichage des classes pour le jour sélectionné */}
         <div>
-          {scheduleData[selectedDay].map((classItem, index) => (
+          {scheduleData[selectedDay as keyof typeof scheduleData].map((classItem, index) => (
             <div key={index} className="pb-[2rem] ">
               <div className="container mx-auto px-4">
                 <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-3  bg-stone-200 border-none p-7'>
@@ -114,6 +125,7 @@ function schedule() {
             </div>
           ))}
         </div>
+
       </div>
     </div>
 
@@ -121,4 +133,4 @@ function schedule() {
   );
 }
 
-export default schedule;
+export default Schedule;

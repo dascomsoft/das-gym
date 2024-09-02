@@ -30,7 +30,7 @@ function gallery() {
             <p className="relative w-[200px] z-10 text-[16px] uppercase font-bold text-white ">OUR GALLERY</p>
             <Image src={grafiti} alt='picture' className="w-[200px] absolute -top-[6px]" />
             <h1 className="text-3xl font-bold mt-7">Our Workplace Gallery</h1>
-            <p>Our Workplace Gallery features modern office, team collaboration. <br /> Attracts talents and showcases company's work atmosphere.</p>
+            <p>Our Workplace Gallery features modern office, team collaboration. <br /> Attracts talents and showcases companies work atmosphere.</p>
           </div>
           <div className="gallery-content">
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-3">
