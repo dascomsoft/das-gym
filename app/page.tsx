@@ -32,7 +32,7 @@ import gall14 from '../images/gall14.png'
 export default function Home() {
   return (
     <div className="main">
-      <div className="home-header flex min-h-screen items-center justify-center flex-col">
+      <div className="home-header flex min-h-screen items-center justify-center flex-col pt-[3rem]">
         <div className="container mx-auto px-4">
           <div className="home-detail float-end">
             <div className="flex">
@@ -379,7 +379,7 @@ export default function Home() {
                   <p>Personal trainer</p>
                   <p>Cycling</p>
                   <br />
-                  <Link href="/book" className='rounded-full w-full block text-center py-1  border-2 border-transparent text-black bg-white hover:bg-green-700 hover:border-transparent hover:text-white'>Book Now</Link>
+                  <Link href="/contact" className='rounded-full w-full block text-center py-1  border-2 border-transparent text-black bg-white hover:bg-green-700 hover:border-transparent hover:text-white'>Book Now</Link>
                 </div>
               </div>
               <div className="pricing-bg-1 shadow-lg border-transparent rounded-xl cursor-pointer transition duration-700 ease-in-out hover:scale-105">
@@ -395,7 +395,7 @@ export default function Home() {
                   <p>Personal trainer</p>
                   <p>Cycling</p>
                   <br />
-                  <Link href="/book" className='rounded-full w-full block text-center  py-1 border-transparant bg-white text-black hover:bg-green-700 hover:border-transparent hover:text-white'>Book Now</Link>
+                  <Link href="/contact" className='rounded-full w-full block text-center  py-1 border-transparant bg-white text-black hover:bg-green-700 hover:border-transparent hover:text-white'>Book Now</Link>
                 </div>
               </div>
 
@@ -412,7 +412,7 @@ export default function Home() {
                   <p>Personal trainer</p>
                   <p>Cycling</p>
                   <br />
-                  <Link href="/book" className='rounded-full w-full block text-center py-1 border-transparent bg-white text-black hover:bg-green-700 hover:border-transparent hover:text-white'>Book Now</Link>
+                  <Link href="/contact" className='rounded-full w-full block text-center py-1 border-transparent bg-white text-black hover:bg-green-700 hover:border-transparent hover:text-white'>Book Now</Link>
                 </div>
               </div>
             </div>
@@ -610,26 +610,26 @@ export default function Home() {
             <p className="relative w-[200px] z-10 text-[16px] uppercase font-bold text-white ">LATEST BLOG</p>
             <Image src={grafiti} alt='picture' className="w-[200px] absolute -top-[6px]" />
             <h1 className="text-3xl font-bold mt-7">Our recent News</h1>
-            <p>Gymat an unknown printer took a galley of type and scrambled <br />make a type specimen book..</p>
+            <p>DasGym an unknown printer took a galley of type and scrambled <br />make a type specimen book..</p>
           </div>
           <div className="blog-content grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="shadow-lg border-2 border-white p-8">
               <h3 className="px-2 py-2 text-center rounded-full border-2 border-whiteblock w-auto max-w-[200px] ">22.03.2022</h3>
               <h2 className="text-3xl font-semibold mt-4">Yoga For Everyone in 2023</h2>
               <p className="py-[15px]">This is program designed to make the practice of yoga beneficial for people of all ages, abilities, and backgrounds.</p>
-              <Link href="/program" className="block w-auto max-w-[200px] font-bold   bg-slate-700 transition duration-500 ease-in-out  hover:bg-red-600 text-white text-center py-3 px-4 mt-7">READ MORE</Link>
+              <Link href="/blog" className="block w-auto max-w-[200px] font-bold   bg-slate-700 transition duration-500 ease-in-out  hover:bg-red-600 text-white text-center py-3 px-4 mt-7">READ MORE</Link>
             </div>
             <div className="shadow-lg border-2 border-white p-8">
               <h3 className="px-2 py-2 text-center rounded-full border-2 border-whiteblock w-auto max-w-[200px] ">22.03.2022</h3>
               <h2 className="text-3xl font-semibold mt-4">Getting Back Into CrossFit After Vacation</h2>
               <p className="py-[15px]">Learn how to ease back into your CrossFit routine after a vacation with tips and strategies for success.</p>
-              <Link href="/program" className="block w-auto max-w-[200px] font-bold   bg-slate-700 transition duration-500 ease-in-out  hover:bg-red-600 text-white text-center py-3 px-4 mt-7">READ MORE</Link>
+              <Link href="/blog" className="block w-auto max-w-[200px] font-bold   bg-slate-700 transition duration-500 ease-in-out  hover:bg-red-600 text-white text-center py-3 px-4 mt-7">READ MORE</Link>
             </div>
             <div className="shadow-lg border-2 border-white p-8">
               <h3 className="px-2 py-2 text-center rounded-full border-2 border-whiteblock w-auto max-w-[200px] ">22.03.2022</h3>
               <h2 className="text-3xl font-semibold mt-4">Meet Fitness Ambassador Grace</h2>
               <p className="py-[15px]">Get to know Grace, a fitness enthusiast and dedicated ambassador who is passionate about helping others reach their fitness goals..</p>
-              <Link href="/program" className="block w-auto max-w-[200px] font-bold   bg-slate-700 transition duration-500 ease-in-out  hover:bg-red-600 text-white text-center py-3 px-4 mt-7">READ MORE</Link>
+              <Link href="/blog" className="block w-auto max-w-[200px] font-bold   bg-slate-700 transition duration-500 ease-in-out  hover:bg-red-600 text-white text-center py-3 px-4 mt-7">READ MORE</Link>
             </div>
           </div>
         </div>

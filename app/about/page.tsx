@@ -17,7 +17,7 @@ import yoga from '../../images/yoga.jpg'
 function about() {
   return (
     <div className='about-main'>
-      <div className="header-section py-[7rem]">
+      <div className="header-section py-[15rem]">
         <div className="container mx-auto px-4">
           <div className="header-content">
             <h1 className="text-5xl font-bold">Our <span className="text-yellow-300">Story</span> in Gymnastic</h1>
@@ -40,7 +40,7 @@ function about() {
                 <hr />
                 <p className="py-3">Gyms play a vital role in promoting an active and healthy lifestyle. They provide a supportive and motivating environment for individuals to engage in regular physical activity.</p>
               </div>
-              <Link href="/program" className="block w-auto max-w-[250px] font-bold rounded-full text-white bg-red-600 transition duration-500 ease-in-out  hover:bg-slate-500 hover:text-white text-center py-3 px-4 mt-3">JOIN WITH US</Link>
+              <Link href="/contact" className="block w-auto max-w-[250px] font-bold rounded-full text-white bg-red-600 transition duration-500 ease-in-out  hover:bg-slate-500 hover:text-white text-center py-3 px-4 mt-3">JOIN WITH US</Link>
             </div>
             <Image src={aboutimage} alt='about picture' />
           </div>
@@ -89,7 +89,7 @@ function about() {
             <h2 className="block w-auto max-w-[250px] font-bold bg-white text-red-500 rounded-full border-2 border-white text-center py-3 mb-5">Make an Appoitment</h2>
             <h1 className="font-extrabold text-[40px] leading-tight">Get a Free Consultancy Right Now Here!<br /> <span className="text-red-600">Fitness  Service For You</span></h1>
             <p className="text-xl py-4">Dedicated to Delivering Exceptional Fitness Services Just for You</p>
-            <Link href="/program" className="block w-auto max-w-[250px] font-bold  rounded-full bg-slate-700 transition duration-500 ease-in-out  hover:bg-red-600 text-white text-center py-3 px-4 mt-7">Book Now</Link>
+            <Link href="/program" className="block w-auto max-w-[250px] font-bold  rounded-full bg-slate-700 transition duration-500 ease-in-out  hover:bg-red-600 text-white text-center py-3 px-4 mt-7">Learn More</Link>
           </div>
         </div>
       </div>

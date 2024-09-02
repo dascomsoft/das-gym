@@ -9,7 +9,7 @@ import grafiti from '../../images/grafiti.svg'
 function pricing() {
   return (
     <div className='pricing-main'>
-      <div className="header-section py-[10rem]">
+      <div className="header-section py-[12rem]">
         <div className="container mx-auto px-4">
           <div className="header-content">
             <h1 className="text-5xl font-bold ">Flexible <span className='text-yellow-300'>Menbership</span> Plans</h1>
@@ -41,7 +41,7 @@ function pricing() {
                   <p>Personal trainer</p>
                   <p>Cycling</p>
                   <br />
-                  <Link href="/book" className='rounded-full w-full block text-center py-1  border-2 border-transparent text-black bg-white hover:bg-green-700 hover:border-transparent hover:text-white'>Book Now</Link>
+                  <Link href="/contact" className='rounded-full w-full block text-center py-1  border-2 border-transparent text-black bg-white hover:bg-green-700 hover:border-transparent hover:text-white'>Book Now</Link>
                 </div>
               </div>
               <div className="pricing-bg-1 shadow-lg border-transparent rounded-xl cursor-pointer transition duration-700 ease-in-out hover:scale-105">
@@ -57,7 +57,7 @@ function pricing() {
                   <p>Personal trainer</p>
                   <p>Cycling</p>
                   <br />
-                  <Link href="/book" className='rounded-full w-full block text-center  py-1 border-transparant bg-white text-black hover:bg-green-700 hover:border-transparent hover:text-white'>Book Now</Link>
+                  <Link href="/contact" className='rounded-full w-full block text-center  py-1 border-transparant bg-white text-black hover:bg-green-700 hover:border-transparent hover:text-white'>Book Now</Link>
                 </div>
               </div>
 
@@ -74,7 +74,7 @@ function pricing() {
                   <p>Personal trainer</p>
                   <p>Cycling</p>
                   <br />
-                  <Link href="/book" className='rounded-full w-full block text-center py-1 border-transparent bg-white text-black hover:bg-green-700 hover:border-transparent hover:text-white'>Book Now</Link>
+                  <Link href="/contact" className='rounded-full w-full block text-center py-1 border-transparent bg-white text-black hover:bg-green-700 hover:border-transparent hover:text-white'>Book Now</Link>
                 </div>
               </div>
             </div>
