@@ -31,10 +31,10 @@ import gall14 from '../images/gall14.png'
 
 export default function Home() {
   return (
-    <div className="main">
-      <div className="home-header flex min-h-screen items-center justify-center flex-col pt-[3rem]">
+    <div className="main text-white">
+      <div className="home-header  py-[20rem]">
         <div className="container mx-auto px-4">
-          <div className="home-detail float-end">
+          <div className="home-detail flex  flex-col items-end text-white">
             <div className="flex">
               <div>
                 <h2 className="title-section font-extrabold mb-7 ps-7 py-4">FIND YOUR ENERGY</h2>
@@ -42,6 +42,9 @@ export default function Home() {
                 <h2 className="text-5xl mt-3 text-red-500">FIT & PERFECT</h2>
                 <p className="mt-4">Gymhen an unknown printer took a galley of type and <br />
                   It has survived unknown printercenturies.</p>
+                  <br />
+                  <Link href="/program" className="block w-auto max-w-[250px] text-black font-bold rounded-full bg-white transition duration-500 ease-in-out  hover:bg-red-600 hover:text-white text-center py-3 px-4 mt-7">JOIN WITH US</Link>
+
               </div>
               <div>
               </div>
@@ -71,9 +74,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <br />
-            <Link href="/program" className="block w-auto max-w-[250px] text-black font-bold rounded-full bg-white transition duration-500 ease-in-out  hover:bg-red-600 hover:text-white text-center py-3 px-4 mt-7">JOIN WITH US</Link>
-
           </div>
         </div>
       </div>
@@ -162,7 +162,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="about-section py-[3rem]">
+      <div className="about-section py-[3rem] text-white">
         <div className="container mx-auto px-4">
           <div className="about-content grid md:grid-cols-2 gap-10 place-items-center">
             <div className="about-description">
@@ -172,13 +172,13 @@ export default function Home() {
               </div>
               <h1 className="text-[40px] leading-tight font-bold">We Will Give You Strength and Health</h1>
               <p className="text-xl py-8">Gymat an unknown printer took a galley type and scraey aretea bled make a type specimen book. May has survived not onlyive centuries but also the leap electronic.Gymatn unknown printer took a galley of type and scraey aretea.</p>
-              <Link href="/program" className="block w-auto max-w-[250px] font-bold rounded-full bg-red-600 transition duration-500 ease-in-out  hover:bg-white hover:text-black text-center py-3 px-4 mt-3">JOIN WITH US</Link>
+              <Link href="/program" className="block w-auto max-w-[250px] font-bold rounded-full text-white bg-red-600 transition duration-500 ease-in-out  hover:bg-white hover:text-black text-center py-3 px-4 mt-3">JOIN WITH US</Link>
             </div>
             <Image src={aboutimage} alt='about picture' />
           </div>
         </div>
       </div>
-      <div className="class-section py-[6rem]">
+      <div className="class-section py-[6rem] text-white">
         <div className="container mx-auto px-4">
           <div className="py-4">
             <h1 className="class-title ps-6 py-4 font-bold">OUR FEATURED CLASS</h1>

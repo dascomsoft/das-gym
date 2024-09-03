@@ -61,12 +61,8 @@
 .main-navbar .head-link:hover::after {
   width: 50px;
 }
-.main-navbar .navleft {
+.main-navbar .closeIcon {
   position: relative;
-}
-.main-navbar .navleft .closeIcon {
-  position: absolute;
-  top: 70px;
-  border-radius: 100px;
+  left: 70px;
   cursor: pointer;
 }/*# sourceMappingURL=Navbar.css.map */
