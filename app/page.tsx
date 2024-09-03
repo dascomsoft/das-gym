@@ -32,7 +32,7 @@ import gall14 from '../images/gall14.png'
 export default function Home() {
   return (
     <div className="main text-white">
-      <div className="home-header  py-[14rem]">
+      <div className="home-header  py-[12rem]">
         <div className="container mx-auto px-4">
           <div className="home-detail flex  flex-col items-end text-white">
             <div className="flex">
@@ -162,7 +162,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="about-section py-[3rem] text-black">
+      <div className="about-section py-[3rem]">
         <div className="container mx-auto px-4">
           <div className="about-content grid md:grid-cols-2 gap-10 place-items-center">
             <div className="about-description">
@@ -170,19 +170,19 @@ export default function Home() {
                 <p className="relative w-[200px] z-10 text-[16px] uppercase font-bold ">About Us</p>
                 <Image src={grafiti} alt='picture' className="w-[200px] absolute -top-[6px] " />
               </div>
-              <h1 className="text-[40px] leading-tight font-bold">We Will Give You Strength and Health</h1>
-              <p className="text-xl py-8">Gymat an unknown printer took a galley type and scraey aretea bled make a type specimen book. May has survived not onlyive centuries but also the leap electronic.Gymatn unknown printer took a galley of type and scraey aretea.</p>
+              <h1 className="text-[40px] leading-tight font-bold text-white">We Will Give You Strength and Health</h1>
+              <p className="text-xl py-8 text-white">Gymat an unknown printer took a galley type and scraey aretea bled make a type specimen book. May has survived not onlyive centuries but also the leap electronic.Gymatn unknown printer took a galley of type and scraey aretea.</p>
               <Link href="/program" className="block w-auto max-w-[250px] font-bold rounded-full text-white bg-red-600 transition duration-500 ease-in-out  hover:bg-white hover:text-black text-center py-3 px-4 mt-3">JOIN WITH US</Link>
             </div>
             <Image src={aboutimage} alt='about picture' />
           </div>
         </div>
-      </div>
-      <div className="class-section py-[6rem] text-white">
+      </div> 
+      <div className="class-section py-[6rem]">
         <div className="container mx-auto px-4">
           <div className="py-4">
-            <h1 className="class-title ps-6 py-4 font-bold">OUR FEATURED CLASS</h1>
-            <h2 className="text-3xl mt-4 font-bold">We Are Offering Best Flexible Classes</h2>
+            <h1 className="class-title ps-6 py-4 font-bold text-white">OUR FEATURED CLASS</h1>
+            <h2 className="text-3xl mt-4 font-bold text-white">We Are Offering Best Flexible Classes</h2>
           </div>
           <div className="class-container grid md:grid-cols-2 lg:grid-cols-3 gap-7">
             <div className="class-content">

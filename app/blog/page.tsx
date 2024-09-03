@@ -20,7 +20,7 @@ import gall14 from '../../images/gall14.png'
 function blog() {
   return (
     <div className='blog-main'>
-      <div className="header-section py-[12rem] text-white">
+      <div className="header-section py-[10rem] text-white">
         <div className="container mx-auto px-4">
           <h1 className="text-5xl font-bold">Your Ultimate Guide to <span className="text-yellow-300">Fitness </span> <br />  and Well-being</h1>
           <p className="text-xl mt-7">Explore expert advice, workout routines, and nutrition tips to <br /> empower your health and transform your lifestyle...</p>

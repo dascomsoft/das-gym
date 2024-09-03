@@ -31,9 +31,9 @@ function program() {
         <div className="relative mb-[5rem] w-full text-center flex flex-col items-center">
             <p className="relative w-[200px] z-10 text-[16px] uppercase font-bold text-white ">OUR FEATURED CLASS</p>
             <Image src={grafiti} alt='picture' className="w-[200px] absolute -top-[6px]" />
-            <h1 className="text-3xl font-bold mt-7">We Are Offering Best Flexible Classes
+            <h1 className="text-3xl font-bold mt-7 text-white">We Are Offering Best Flexible Classes
             </h1>
-            <p className='pt-3'>Expert team of coaches helps you succeed in any goal,personalized <br /> guidance and motivation provided!</p>
+            <p className='pt-3 text-white'>Expert team of coaches helps you succeed in any goal,personalized <br /> guidance and motivation provided!</p>
           </div>
           <div className="class-container grid md:grid-cols-2 lg:grid-cols-3 gap-7">
             <div className="class-content">

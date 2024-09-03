@@ -9,7 +9,7 @@ import grafiti from '../../images/grafiti.svg'
 function pricing() {
   return (
     <div className='pricing-main'>
-      <div className="header-section py-[12rem] text-white">
+      <div className="header-section py-[10rem] text-white">
         <div className="container mx-auto px-4">
           <div className="header-content">
             <h1 className="text-5xl font-bold ">Flexible <span className='text-yellow-300'>Menbership</span> Plans</h1>
@@ -84,8 +84,8 @@ function pricing() {
       <div className="notice-section py-[8rem]">
         <div className="container mx-auto px-4">
           <div className="notice-content text-center flex flex-col items-center ">
-            <h1 className="text-5xl font-bold">FITNESS CLASSES THIS SUMMER</h1>
-            <p className="text-3xl font-semibold py-4">Get <span className='text-red-600'>35% </span> Discount</p>
+            <h1 className="text-5xl font-bold text-white">FITNESS CLASSES THIS SUMMER</h1>
+            <p className="text-3xl font-semibold py-4 text-white">Get <span className='text-red-600'>35% </span> Discount</p>
             <Link href="/program" className="block w-auto max-w-[350px] font-bold  text-white text-xl bg-red-700 transition duration-500 ease-in-out  hover:bg-white hover:text-black text-center py-3 px-4 mt-7">READ MORE</Link>
           </div>
         </div>
