@@ -17,7 +17,7 @@ import timi8 from '../../images/timi8.png'
 function program() {
   return (
     <div className='program-main'>
-      <div className="header-section py-[12rem]">
+      <div className="header-section py-[12rem] text-white">
         <div className="container mx-auto px-4">
           <div className="header-content">
             <h1 className="text-5xl font-bold">Explore Our <span className=' text-yellow-300'>Gymnastics </span> Classes</h1>

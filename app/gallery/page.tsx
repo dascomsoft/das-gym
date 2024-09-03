@@ -15,7 +15,7 @@ import gall14 from '../../images/gall14.png'
 function gallery() {
   return (
     <div className='gallery-main'>
-      <div className="header-section py-[12rem]">
+      <div className="header-section py-[12rem] text-white">
         <div className="container mx-auto px-4">
           <div className="header-content">
             <h1 className="text-5xl font-bold "><span className='text-yellow-300'>Gymnastics</span> in Motion</h1>

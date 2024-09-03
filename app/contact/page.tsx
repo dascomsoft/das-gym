@@ -7,7 +7,7 @@ import './contact.css'
 function contact() {
   return (
     <div className='contact-main'>
-        <div className="header-section py-[12rem]">
+        <div className="header-section py-[12rem] text-white">
         <div className="container mx-auto px-4">
           <h1 className="text-5xl font-bold">Get In<span className=' text-yellow-300'> Touch</span></h1>
           <p className="text-xl mt-7">We are here to support your gymnastics journey—reach out to us with <br /> any questions, and let us connect today!..</p>

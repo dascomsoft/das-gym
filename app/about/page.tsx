@@ -17,7 +17,7 @@ import yoga from '../../images/yoga.jpg'
 function about() {
   return (
     <div className='about-main'>
-      <div className="header-section py-[15rem]">
+      <div className="header-section py-[15rem] text-white">
         <div className="container mx-auto px-4">
           <div className="header-content">
             <h1 className="text-5xl font-bold">Our <span className="text-yellow-300">Story</span> in Gymnastic</h1>
