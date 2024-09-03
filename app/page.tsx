@@ -32,7 +32,7 @@ import gall14 from '../images/gall14.png'
 export default function Home() {
   return (
     <div className="main text-white">
-      <div className="home-header  py-[20rem]">
+      <div className="home-header  py-[14rem]">
         <div className="container mx-auto px-4">
           <div className="home-detail flex  flex-col items-end text-white">
             <div className="flex">
@@ -162,7 +162,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="about-section py-[3rem] text-white">
+      <div className="about-section py-[3rem] text-black">
         <div className="container mx-auto px-4">
           <div className="about-content grid md:grid-cols-2 gap-10 place-items-center">
             <div className="about-description">
