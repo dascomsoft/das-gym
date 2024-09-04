@@ -32,7 +32,7 @@ import gall14 from '../images/gall14.png'
 export default function Home() {
   return (
     <div className="main text-white">
-      <div className="home-header flex flex-col h-screen items-center justify-center">
+      <div className="home-header">
         <div className="container mx-auto px-4">
           <div className="home-detail flex  flex-col items-end text-white">
             <div className="flex">

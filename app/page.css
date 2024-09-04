@@ -4,6 +4,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 350px 0 350px;
+}
+@media (max-width: 800px) {
+  .home-header {
+    padding: 170px 0 170px;
+  }
 }
 .home-header .home-detail {
   line-height: 1.5;
