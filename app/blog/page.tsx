@@ -14,6 +14,7 @@ import gall5 from '../../images/gall5.png'
 import gall12 from '../../images/gall12.png'
 import gall13 from '../../images/gall13.png'
 import gall14 from '../../images/gall14.png'
+import addimage from '../../images/add.png'
 
 
 
@@ -35,7 +36,7 @@ function blog() {
                 <div className="blog-detail">
                   <Image src={blog1} alt='blog picture' className="w-full" />
                   <div className="blog-text bg-stone-100 p-10">
-                    <div className="flex flex-wrap items-center mt-4">
+                    <div className="flex flex-wrap justify-between items-center mt-4">
                       <div className="flex items-center ms-3">
                         <span>
                           <svg width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="blue">
@@ -211,6 +212,13 @@ function blog() {
                     <Image src={gall1} alt='picture' width={80} height={80} />
                   </div>
                 </div>
+              </div>
+              <div className="image-discount relative mt-10">
+                 <Image src={addimage} alt='picture' width={300} className="relative"/>
+                 <div className="absolute top-20 left-10">
+                   <h1 className="text-6xl text-white font-bold">34%</h1>
+                   <p className="text-xl text-white font-semibold">Flat Discount</p>
+                 </div>
               </div>
             </div>
           </div>
