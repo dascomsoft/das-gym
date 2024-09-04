@@ -92,10 +92,9 @@ function Schedule() {
       {/* Génération dynamique des boutons pour chaque jour */}
       <div className='bg-white text-black pt-14'>
         <div className="container mx-auto px-4">
-          <div className="grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3 py-[3rem]">
+          <div className="grid grid-cols-1 place-items-center sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3  py-[3rem]">
             {Object.keys(scheduleData).map(day => (
-              <button key={day} onClick={() => setSelectedDay(day)} className={`py-2 px-4 rounded ${selectedDay === day ? 'bg-blue-500 text-white' : 'bg-stone-600 text-white'}`}
-              >
+              <button key={day} onClick={() => setSelectedDay(day)} className={`py-2 px-4 rounded ${selectedDay === day ? 'bg-blue-500 text-white' : 'bg-stone-600 text-white'}`}>
                 {day}
               </button>
             ))}
@@ -107,15 +106,15 @@ function Schedule() {
             <div key={index} className="pb-[2rem] ">
               <div className="container mx-auto px-4">
                 <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-3  bg-stone-200 border-none p-7'>
-                  <div className=''>
+                  <div className='grid grid-cols-1 place-items-center text-center'>
                     <h1>Class Name</h1>
                     <h2 className="text-xl font-semibold">{classItem.className}</h2>
                   </div>
-                  <div className=''>
+                  <div className='grid grid-cols-1 place-items-center text-center'>
                     <h1>Time</h1>
                     <p className="text-black font-semibold">{classItem.time}</p>
                   </div>
-                  <div className=''>
+                  <div className='grid grid-cols-1 place-items-center text-center'>
                     <h1>Trainer</h1>
                     <p className="text-black font-semibold">{classItem.trainer}</p>
                   </div>
