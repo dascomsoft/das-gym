@@ -32,7 +32,7 @@ import gall14 from '../images/gall14.png'
 export default function Home() {
   return (
     <div className="main text-white">
-      <div className="home-header  py-[12rem]">
+      <div className="home-header flex flex-col min-h-screen items-center justify-center">
         <div className="container mx-auto px-4">
           <div className="home-detail flex  flex-col items-end text-white">
             <div className="flex">
@@ -123,16 +123,20 @@ export default function Home() {
                         <p>Take your health and body to the next level with our comprehensive program designed to help you reach your fitness goals.</p>
                       </div>
 
-                      <div className="home-detail grid md:grid-cols-2 lg:grid-cols-3  gap-4 my-5">
-                        <div className="detail">
+                      <div className="home-detail grid  md:grid-cols-2 lg:grid-cols-3  gap-4 my-5">
+                        <div className="detail flex flex-col items-center justify-center">
                           <svg width="70px" height="70px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path fill="red" d="M77.492 18.457l-17.726 3.127L69.09 74.47a1630.67 1630.67 0 0 0-15.8 2.54l-6.503-36.89-17.726 3.124 6.49 36.795a1877.847 1877.847 0 0 0-17.196 3.112l3.292 17.696c5.728-1.066 11.397-2.09 17.028-3.084l7.056 40.02 17.727-3.124-7.04-39.93c5.304-.88 10.57-1.725 15.798-2.54l9.777 55.45 17.727-3.126-9.697-54.99c8.483-1.218 16.866-2.338 25.18-3.38 15.54 46.39 34.697 99.995 66.936 134.448C190.86 250.992 192 268 214.56 310 192 348 176 412 167.21 471l-48 6v15H192c16-48 64-144 64-144s48 96 64 144h72.79v-15l-48-6C336 412 320 348 294 310c26-42 24.175-59.585 35.83-89.377 32.25-34.452 51.42-88.075 66.967-134.478 8.314 1.04 16.697 2.16 25.18 3.38l-9.696 54.99 17.728 3.124 9.777-55.45c5.23.815 10.494 1.66 15.8 2.54l-7.042 39.93 17.727 3.125 7.056-40.02c5.63.993 11.3 2.017 17.028 3.083l3.292-17.696c-5.78-1.075-11.507-2.11-17.195-3.113l6.49-36.796-17.727-3.125-6.504 36.89c-5.303-.88-10.57-1.727-15.8-2.54l9.324-52.886-17.726-3.127-9.406 53.35C365.982 63.31 310.982 59.04 256 59.04c-54.98 0-109.983 4.27-169.102 12.767l-9.406-53.35zM256 76.98c35.53 0 71.07 1.83 107.822 5.463-14.082 34.858-38.454 73.504-63.203 101.967C290.293 199.27 274.35 209 256 209c-18.35 0-34.294-9.73-44.62-24.59-24.748-28.463-49.12-67.11-63.202-101.967 36.75-3.633 72.29-5.463 107.822-5.463zM256 97c-20.835 0-39 20.24-39 47s18.165 47 39 47 39-20.24 39-47-18.165-47-39-47z" /></svg>
                           <h1 className="font-bold text-[20px] py-2">TRAINERS</h1>
+                          <p className="text-center">Our team will work with you to create a personalized meal plan that helps you reach your specific health goals.</p>
+
                         </div>
-                        <div className="detail">
+                        <div className="detail  flex flex-col items-center justify-center">
                           <svg fill="red" width="70px" height="70px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <title /><g data-name="Layer 2" id="Layer_2"><path d="M19,7H14v4H10V7H5V8H2v8H5v1h5V13h4v4h5V16h3V8H19ZM4,14V10H5v4Zm4,1H7V9H8Zm8-6h1v6H16Zm4,1v4H19V10Z" /></g></svg>
                           <h1 className="font-bold text-[20px] py-2">EQUIPMENTS</h1>
+                          <p className="text-center">Our team will work with you to create a personalized meal plan that helps you reach your specific health goals.</p>
+
                         </div>
-                        <div className="detail">
+                        <div className="detail  flex flex-col items-center justify-center">
                           <svg fill="red" width="70px" height="70px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <title />
                             <g data-name="Layer 2" id="Layer_2">
@@ -141,6 +145,8 @@ export default function Home() {
 
                           </svg>
                           <h1 className="font-bold text-[20px] py-2">GYM MACHINES</h1>
+                          <p className="text-center">Our team will work with you to create a personalized meal plan that helps you reach your specific health goals.</p>
+
                         </div>
                       </div>
                       <br />

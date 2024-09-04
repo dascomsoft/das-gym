@@ -29,32 +29,117 @@ function blog() {
       </div>
       <div className="blog-section py-[6rem] bg-white text-black">
         <div className="container mx-auto px-4">
-          <div className="blog-content grid grid-cols-1 gap-5 ">
-            <div className="blog-1 grid md:grid-cols-2 gap-20 ">
-              <div className="blog-detail">
-                <Image src={blog1} alt='blog picture' className="w-full" />
-                <div className="blog-text bg-stone-100 p-10">
-                  <div className="flex items-center justify-between mt-4">
-                    <div className="flex items-center ms-3">
-                      <span>
-                        <svg width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="blue">
-                          <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M14.5 2H13V1h-1v1H4V1H3v1H1.5l-.5.5v12l.5.5h13l.5-.5v-12l-.5-.5zM14 14H2V5h12v9zm0-10H2V3h12v1zM4 8H3v1h1V8zm-1 2h1v1H3v-1zm1 2H3v1h1v-1zm2-4h1v1H6V8zm1 2H6v1h1v-1zm-1 2h1v1H6v-1zm1-6H6v1h1V6zm2 2h1v1H9V8zm1 2H9v1h1v-1zm-1 2h1v1H9v-1zm1-6H9v1h1V6zm2 2h1v1h-1V8zm1 2h-1v1h1v-1zm-1-4h1v1h-1V6z" />
-                        </svg>
-                      </span>
-                      <span className="ms-2 mt-1">01 Jan 2045</span>
+          <div className="blog-content grid md:grid-cols-2 gap-10">
+            <div className="blog-pictures-content">
+              <div className="blog-1">
+                <div className="blog-detail">
+                  <Image src={blog1} alt='blog picture' className="w-full" />
+                  <div className="blog-text bg-stone-100 p-10">
+                    <div className="flex flex-wrap items-center mt-4">
+                      <div className="flex items-center ms-3">
+                        <span>
+                          <svg width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="blue">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M14.5 2H13V1h-1v1H4V1H3v1H1.5l-.5.5v12l.5.5h13l.5-.5v-12l-.5-.5zM14 14H2V5h12v9zm0-10H2V3h12v1zM4 8H3v1h1V8zm-1 2h1v1H3v-1zm1 2H3v1h1v-1zm2-4h1v1H6V8zm1 2H6v1h1v-1zm-1 2h1v1H6v-1zm1-6H6v1h1V6zm2 2h1v1H9V8zm1 2H9v1h1v-1zm-1 2h1v1H9v-1zm1-6H9v1h1V6zm2 2h1v1h-1V8zm1 2h-1v1h1v-1zm-1-4h1v1h-1V6z" />
+                          </svg>
+                        </span>
+                        <span className="ms-2 mt-1">01 Jan 2045</span>
+                      </div>
+                      <div className="flex items-center ms-3">
+                        <span>
+                          <svg width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="blue"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 11.29l1-1v1.42l-1.15 1.14L3 12.5V10H1.5L1 9.5v-8l.5-.5h12l.5.5V6h-1V2H2v7h1.5l.5.5v1.79zM10.29 13l1.86 1.85.85-.35V13h1.5l.5-.5v-5l-.5-.5h-8l-.5.5v5l.5.5h3.79zm.21-1H7V8h7v4h-1.5l-.5.5v.79l-1.15-1.14-.35-.15z" /></svg>
+                        </span>
+                        <span className="ms-2 mt-1">3 comments</span>
+                      </div>
                     </div>
-                    <div className="flex items-center ms-3">
-                      <span>
-                        <svg width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="blue"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 11.29l1-1v1.42l-1.15 1.14L3 12.5V10H1.5L1 9.5v-8l.5-.5h12l.5.5V6h-1V2H2v7h1.5l.5.5v1.79zM10.29 13l1.86 1.85.85-.35V13h1.5l.5-.5v-5l-.5-.5h-8l-.5.5v5l.5.5h3.79zm.21-1H7V8h7v4h-1.5l-.5.5v.79l-1.15-1.14-.35-.15z" /></svg>
-                      </span>
-                      <span className="ms-2 mt-1">3 comments</span>
-                    </div>
+                    <h2 className="text-2xl font-semibold py-9">Most Traditional Gym Fitness Blog 2023</h2>
+                    <p>Passion is the driving force behind our gym team members. They have a genuine love for fitness and a deep-rooted desire to inspire and motivate others. Their contagious enthusiasm creates a positive and energizing atmosphere within our gym</p>
                   </div>
-                  <h2 className="text-4xl font-semibold py-9">Most Traditional Gym Fitness Blog 2023</h2>
-                  <p>Passion is the driving force behind our gym team members. They have a genuine love for fitness and a deep-rooted desire to inspire and motivate others. Their contagious enthusiasm creates a positive and energizing atmosphere within our gym</p>
                 </div>
               </div>
+              <div className="blog-2">
+                <div className="blog-detail">
+                  <Image src={blog2} alt='blog picture' />
+                  <div className="blog-text bg-stone-100 p-10">
+                    <div className="flex flex-wrap items-center justify-between mt-4">
+                      <div className="flex items-center ms-3">
+                        <span>
+                          <svg width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="blue">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M14.5 2H13V1h-1v1H4V1H3v1H1.5l-.5.5v12l.5.5h13l.5-.5v-12l-.5-.5zM14 14H2V5h12v9zm0-10H2V3h12v1zM4 8H3v1h1V8zm-1 2h1v1H3v-1zm1 2H3v1h1v-1zm2-4h1v1H6V8zm1 2H6v1h1v-1zm-1 2h1v1H6v-1zm1-6H6v1h1V6zm2 2h1v1H9V8zm1 2H9v1h1v-1zm-1 2h1v1H9v-1zm1-6H9v1h1V6zm2 2h1v1h-1V8zm1 2h-1v1h1v-1zm-1-4h1v1h-1V6z" />
+                          </svg>
+                        </span>
+                        <span className="ms-2 mt-1">01 Jan 2045</span>
+                      </div>
+                      <div className="flex items-center ms-3">
+                        <span>
+                          <svg width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="blue"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 11.29l1-1v1.42l-1.15 1.14L3 12.5V10H1.5L1 9.5v-8l.5-.5h12l.5.5V6h-1V2H2v7h1.5l.5.5v1.79zM10.29 13l1.86 1.85.85-.35V13h1.5l.5-.5v-5l-.5-.5h-8l-.5.5v5l.5.5h3.79zm.21-1H7V8h7v4h-1.5l-.5.5v.79l-1.15-1.14-.35-.15z" /></svg>
+                        </span>
+                        <span className="ms-2 mt-1">3 comments</span>
+                      </div>
+                    </div>
+                    <h2 className="text-2xl font-semibold py-9">Getting Back Into CrossFit After Vacation.</h2>
+                    <p>Passion is the driving force behind our gym team members. They have a genuine love for fitness and a deep-rooted desire to inspire and motivate others. Their contagious enthusiasm creates a positive and energizing atmosphere within our gym</p>
+                  </div>
+                </div>
+
+              </div>
+              <div className="blog-3">
+                <div className="blog-detail">
+                  <Image src={blog3} alt='blog picture' />
+                  <div className="blog-text bg-stone-100 p-10">
+                    <div className="flex flex-wrap items-center justify-between mt-4">
+                      <div className="flex items-center ms-3">
+                        <span>
+                          <svg width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="blue">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M14.5 2H13V1h-1v1H4V1H3v1H1.5l-.5.5v12l.5.5h13l.5-.5v-12l-.5-.5zM14 14H2V5h12v9zm0-10H2V3h12v1zM4 8H3v1h1V8zm-1 2h1v1H3v-1zm1 2H3v1h1v-1zm2-4h1v1H6V8zm1 2H6v1h1v-1zm-1 2h1v1H6v-1zm1-6H6v1h1V6zm2 2h1v1H9V8zm1 2H9v1h1v-1zm-1 2h1v1H9v-1zm1-6H9v1h1V6zm2 2h1v1h-1V8zm1 2h-1v1h1v-1zm-1-4h1v1h-1V6z" />
+                          </svg>
+                        </span>
+                        <span className="ms-2 mt-1">01 Jan 2045</span>
+                      </div>
+                      <div className="flex items-center ms-3">
+                        <span>
+                          <svg width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="blue"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 11.29l1-1v1.42l-1.15 1.14L3 12.5V10H1.5L1 9.5v-8l.5-.5h12l.5.5V6h-1V2H2v7h1.5l.5.5v1.79zM10.29 13l1.86 1.85.85-.35V13h1.5l.5-.5v-5l-.5-.5h-8l-.5.5v5l.5.5h3.79zm.21-1H7V8h7v4h-1.5l-.5.5v.79l-1.15-1.14-.35-.15z" /></svg>
+                        </span>
+                        <span className="ms-2 mt-1">3 comments</span>
+                      </div>
+                    </div>
+                    <h2 className="text-2xl font-semibold py-9">How to Get Fit Your Kids Moving Throughout The Summer</h2>
+                    <p>Passion is the driving force behind our gym team members. They have a genuine love for fitness and a deep-rooted desire to inspire and motivate others. Their contagious enthusiasm creates a positive and energizing atmosphere within our gym</p>
+                  </div>
+                </div>
+                <div className="blog-post">
+                </div>
+              </div>
+              <div className="blog-4">
+                <div className="blog-detail">
+                  <Image src={blog4} alt='blog picture' />
+                  <div className="blog-text bg-stone-100 p-10">
+                    <div className="flex flex-wrap items-center justify-between mt-4">
+                      <div className="flex items-center ms-3">
+                        <span>
+                          <svg width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="blue">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M14.5 2H13V1h-1v1H4V1H3v1H1.5l-.5.5v12l.5.5h13l.5-.5v-12l-.5-.5zM14 14H2V5h12v9zm0-10H2V3h12v1zM4 8H3v1h1V8zm-1 2h1v1H3v-1zm1 2H3v1h1v-1zm2-4h1v1H6V8zm1 2H6v1h1v-1zm-1 2h1v1H6v-1zm1-6H6v1h1V6zm2 2h1v1H9V8zm1 2H9v1h1v-1zm-1 2h1v1H9v-1zm1-6H9v1h1V6zm2 2h1v1h-1V8zm1 2h-1v1h1v-1zm-1-4h1v1h-1V6z" />
+                          </svg>
+                        </span>
+                        <span className="ms-2 mt-1">01 Jan 2045</span>
+                      </div>
+                      <div className="flex items-center ms-3">
+                        <span>
+                          <svg width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="blue"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 11.29l1-1v1.42l-1.15 1.14L3 12.5V10H1.5L1 9.5v-8l.5-.5h12l.5.5V6h-1V2H2v7h1.5l.5.5v1.79zM10.29 13l1.86 1.85.85-.35V13h1.5l.5-.5v-5l-.5-.5h-8l-.5.5v5l.5.5h3.79zm.21-1H7V8h7v4h-1.5l-.5.5v.79l-1.15-1.14-.35-.15z" /></svg>
+                        </span>
+                        <span className="ms-2 mt-1">3 comments</span>
+                      </div>
+                    </div>
+                    <h2 className="text-2xl font-semibold py-9">Give your fitness a boost with our new gym challengev</h2>
+                    <p>Passion is the driving force behind our gym team members. They have a genuine love for fitness and a deep-rooted desire to inspire and motivate others. Their contagious enthusiasm creates a positive and energizing atmosphere within our gym</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="blog-descrtion">
               <div className="blog-post">
                 <h1 className="text-xl font-semibold mb-6">Recents Post</h1>
                 <div className="flex flex-col gap-4  bg-stone-100 p-4 max-w-[300px]">
@@ -85,60 +170,36 @@ function blog() {
                 </div>
                 <div className="category mt-10  bg-stone-100 p-4 max-w-[300px]">
                   <h1 className="text-xl font-semibold mb-3">Categories</h1>
-                  <div className="flex flex-col gap-10">
-                    <p className="hover:text-red-600 cursor-pointer">Body Building</p>
-                    <p className="hover:text-red-600 cursor-pointer">Boxing Training</p>
-                    <p className="hover:text-red-600 cursor-pointer">Yoga Training</p>
-                    <p className="hover:text-red-600 cursor-pointer">Crossfit Training</p>
-                    <p className="hover:text-red-600 cursor-pointer">Crossfit Training</p>
-                    <p className="hover:text-red-600 cursor-pointer">Crossfit Training</p>
+                  <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-3">
+                    <p className="shadow-lg p-3 hover:text-red-600 cursor-pointer">BodyBuild</p>
+                    <p className="shadow-lg p-3 hover:text-red-600 cursor-pointer">Boxing</p>
+                    <p className="shadow-lg p-3 hover:text-red-600 cursor-pointer">Yoga</p>
+                    <p className="shadow-lg p-3 hover:text-red-600 cursor-pointer">Crossfit</p>
+                    <p className="shadow-lg p-3 hover:text-red-600 cursor-pointer">Workout</p>
+                    <p className="shadow-lg p-3 hover:text-red-600 cursor-pointer">Running</p>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div className="blog-2 grid md:grid-cols-2 gap-20">
-              <div className="blog-detail">
-                <Image src={blog2} alt='blog picture' />
-                <div className="blog-text bg-stone-100 p-10">
-                  <div className="flex items-center justify-between mt-4">
-                    <div className="flex items-center ms-3">
-                      <span>
-                        <svg width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="blue">
-                          <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M14.5 2H13V1h-1v1H4V1H3v1H1.5l-.5.5v12l.5.5h13l.5-.5v-12l-.5-.5zM14 14H2V5h12v9zm0-10H2V3h12v1zM4 8H3v1h1V8zm-1 2h1v1H3v-1zm1 2H3v1h1v-1zm2-4h1v1H6V8zm1 2H6v1h1v-1zm-1 2h1v1H6v-1zm1-6H6v1h1V6zm2 2h1v1H9V8zm1 2H9v1h1v-1zm-1 2h1v1H9v-1zm1-6H9v1h1V6zm2 2h1v1h-1V8zm1 2h-1v1h1v-1zm-1-4h1v1h-1V6z" />
-                        </svg>
-                      </span>
-                      <span className="ms-2 mt-1">01 Jan 2045</span>
-                    </div>
-                    <div className="flex items-center ms-3">
-                      <span>
-                        <svg width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="blue"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 11.29l1-1v1.42l-1.15 1.14L3 12.5V10H1.5L1 9.5v-8l.5-.5h12l.5.5V6h-1V2H2v7h1.5l.5.5v1.79zM10.29 13l1.86 1.85.85-.35V13h1.5l.5-.5v-5l-.5-.5h-8l-.5.5v5l.5.5h3.79zm.21-1H7V8h7v4h-1.5l-.5.5v.79l-1.15-1.14-.35-.15z" /></svg>
-                      </span>
-                      <span className="ms-2 mt-1">3 comments</span>
-                    </div>
-                  </div>
-                  <h2 className="text-4xl font-semibold py-9">Getting Back Into CrossFit After Vacation.</h2>
-                  <p>Passion is the driving force behind our gym team members. They have a genuine love for fitness and a deep-rooted desire to inspire and motivate others. Their contagious enthusiasm creates a positive and energizing atmosphere within our gym</p>
                 </div>
               </div>
               <div className="blog-post">
                 <div className="bg-stone-100 p-4 max-w-[300px]">
                   <h1 className="text-xl font-semibold mb-6">Popular Tags</h1>
-                  <div className="grid md:grid-cols-3 gap-4">
-                    <p className="hover:text-red-600 cursor-pointer">#CrossFit</p>
-                    <p className="hover:text-red-600 cursor-pointer">#Fitness</p>
-                    <p className="hover:text-red-600 cursor-pointer">#Yoga</p>
-                    <p className="hover:text-red-600 cursor-pointer">#BodyBuild</p>
-                    <p className="hover:text-red-600 cursor-pointer">#Running</p>
-                    <p className="hover:text-red-600 cursor-pointer">#Boxing</p>
-                    <p className="hover:text-red-600 cursor-pointer">#Meditation</p>
-                    <p className="hover:text-red-600 cursor-pointer">#Workout</p>
-                    <p className="hover:text-red-600 cursor-pointer">#Gym</p>
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                    <p className="shadow-lg p-3 hover:text-red-600 cursor-pointer">#CrossFit</p>
+                    <p className="shadow-lg p-3 hover:text-red-600 cursor-pointer">#Fitness</p>
+                    <p className="shadow-lg p-3 hover:text-red-600 cursor-pointer">#Yoga</p>
+                    <p className="shadow-lg p-3 hover:text-red-600 cursor-pointer">#BodyBuild</p>
+                    <p className=" shadow-lg p-3 hover:text-red-600 cursor-pointer">#Running</p>
+                    <p className="shadow-lg p-3 hover:text-red-600 cursor-pointer">#Boxing</p>
+                    <p className="shadow-lg p-3 hover:text-red-600 cursor-pointer">#Meditation</p>
+                    <p className="shadow-lg p-3 hover:text-red-600 cursor-pointer">#Workout</p>
+                    <p className="shadow-lg p-3 hover:text-red-600 cursor-pointer">#Gym</p>
+                    <p className="shadow-lg p-3 hover:text-red-600 cursor-pointer">#Karate</p>
+
                   </div>
                 </div>
                 <div className="bg-stone-100 p-4 max-w-[300px]">
-                <h1 className="text-xl font-semibold mb-6">Project Gallery</h1>
-                <div className="grid grid-cols-3 md:grid-cols-3 gap-2 ">
+                  <h1 className="text-xl font-semibold mb-6">Project Gallery</h1>
+                  <div className="grid grid-cols-3 md:grid-cols-3 gap-2 ">
                     <Image src={gall1} alt='picture' width={80} height={80} />
                     <Image src={gall2} alt='picture' width={80} height={80} />
                     <Image src={gall3} alt='picture' width={80} height={80} />
@@ -150,64 +211,6 @@ function blog() {
                     <Image src={gall1} alt='picture' width={80} height={80} />
                   </div>
                 </div>
-
-                
-              </div>
-            </div>
-            <div className="blog-1 grid md:grid-cols-2 gap-20">
-              <div className="blog-detail">
-                <Image src={blog3} alt='blog picture' />
-                <div className="blog-text bg-stone-100 p-10">
-                  <div className="flex items-center justify-between mt-4">
-                    <div className="flex items-center ms-3">
-                      <span>
-                        <svg width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="blue">
-                          <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M14.5 2H13V1h-1v1H4V1H3v1H1.5l-.5.5v12l.5.5h13l.5-.5v-12l-.5-.5zM14 14H2V5h12v9zm0-10H2V3h12v1zM4 8H3v1h1V8zm-1 2h1v1H3v-1zm1 2H3v1h1v-1zm2-4h1v1H6V8zm1 2H6v1h1v-1zm-1 2h1v1H6v-1zm1-6H6v1h1V6zm2 2h1v1H9V8zm1 2H9v1h1v-1zm-1 2h1v1H9v-1zm1-6H9v1h1V6zm2 2h1v1h-1V8zm1 2h-1v1h1v-1zm-1-4h1v1h-1V6z" />
-                        </svg>
-                      </span>
-                      <span className="ms-2 mt-1">01 Jan 2045</span>
-                    </div>
-                    <div className="flex items-center ms-3">
-                      <span>
-                        <svg width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="blue"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 11.29l1-1v1.42l-1.15 1.14L3 12.5V10H1.5L1 9.5v-8l.5-.5h12l.5.5V6h-1V2H2v7h1.5l.5.5v1.79zM10.29 13l1.86 1.85.85-.35V13h1.5l.5-.5v-5l-.5-.5h-8l-.5.5v5l.5.5h3.79zm.21-1H7V8h7v4h-1.5l-.5.5v.79l-1.15-1.14-.35-.15z" /></svg>
-                      </span>
-                      <span className="ms-2 mt-1">3 comments</span>
-                    </div>
-                  </div>
-                  <h2 className="text-4xl font-semibold py-9">How to Get Fit Your Kids Moving Throughout The Summer</h2>
-                  <p>Passion is the driving force behind our gym team members. They have a genuine love for fitness and a deep-rooted desire to inspire and motivate others. Their contagious enthusiasm creates a positive and energizing atmosphere within our gym</p>
-                </div>
-              </div>
-              <div className="blog-post">
-              </div>
-            </div>
-            <div className="blog-1 grid md:grid-cols-2 gap-20">
-              <div className="blog-detail">
-                <Image src={blog4} alt='blog picture' />
-                <div className="blog-text bg-stone-100 p-10">
-                  <div className="flex items-center justify-between mt-4">
-                    <div className="flex items-center ms-3">
-                      <span>
-                        <svg width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="blue">
-                          <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M14.5 2H13V1h-1v1H4V1H3v1H1.5l-.5.5v12l.5.5h13l.5-.5v-12l-.5-.5zM14 14H2V5h12v9zm0-10H2V3h12v1zM4 8H3v1h1V8zm-1 2h1v1H3v-1zm1 2H3v1h1v-1zm2-4h1v1H6V8zm1 2H6v1h1v-1zm-1 2h1v1H6v-1zm1-6H6v1h1V6zm2 2h1v1H9V8zm1 2H9v1h1v-1zm-1 2h1v1H9v-1zm1-6H9v1h1V6zm2 2h1v1h-1V8zm1 2h-1v1h1v-1zm-1-4h1v1h-1V6z" />
-                        </svg>
-                      </span>
-                      <span className="ms-2 mt-1">01 Jan 2045</span>
-                    </div>
-                    <div className="flex items-center ms-3">
-                      <span>
-                        <svg width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="blue"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 11.29l1-1v1.42l-1.15 1.14L3 12.5V10H1.5L1 9.5v-8l.5-.5h12l.5.5V6h-1V2H2v7h1.5l.5.5v1.79zM10.29 13l1.86 1.85.85-.35V13h1.5l.5-.5v-5l-.5-.5h-8l-.5.5v5l.5.5h3.79zm.21-1H7V8h7v4h-1.5l-.5.5v.79l-1.15-1.14-.35-.15z" /></svg>
-                      </span>
-                      <span className="ms-2 mt-1">3 comments</span>
-                    </div>
-                  </div>
-                  <h2 className="text-4xl font-semibold py-9">Give your fitness a boost with our new gym challengev</h2>
-                  <p>Passion is the driving force behind our gym team members. They have a genuine love for fitness and a deep-rooted desire to inspire and motivate others. Their contagious enthusiasm creates a positive and energizing atmosphere within our gym</p>
-                </div>
-              </div>
-              <div className="blog-post">
               </div>
             </div>
           </div>
