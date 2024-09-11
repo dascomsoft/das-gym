@@ -140,6 +140,7 @@ function blog() {
                 </div>
               </div>
             </div>
+            
             <div className="blog-descrtion">
               <div className="blog-post">
                 <h1 className="text-xl font-semibold mb-6">Recents Post</h1>
@@ -184,7 +185,7 @@ function blog() {
               <div className="blog-post">
                 <div className="bg-stone-100 p-4 max-w-[300px]">
                   <h1 className="text-xl font-semibold mb-6">Popular Tags</h1>
-                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                  <div className="grid grid-cols-2 md:grid-cols-2 gap-4">
                     <p className="shadow-lg p-3 hover:text-red-600 cursor-pointer">#CrossFit</p>
                     <p className="shadow-lg p-3 hover:text-red-600 cursor-pointer">#Fitness</p>
                     <p className="shadow-lg p-3 hover:text-red-600 cursor-pointer">#Yoga</p>
