@@ -1,8 +1,10 @@
+
 import type { Metadata } from "next";
 import { Outfit} from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Chatbot from "@/components/Chabtox";
 
 const outfit = Outfit({ subsets: ["latin"] });
 
@@ -12,6 +14,8 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
+ 
+
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -19,9 +23,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={outfit.className}>
-        <Navbar />
+        <Navbar  />
         {children}
         <Footer />
+        <Chatbot /> {/* Ajoute le Chatbot ici */}
         </body>
     </html>
   );

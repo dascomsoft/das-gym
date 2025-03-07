@@ -40,46 +40,9 @@ function about() {
                 <hr />
                 <p className="py-3">Gyms play a vital role in promoting an active and healthy lifestyle. They provide a supportive and motivating environment for individuals to engage in regular physical activity.</p>
               </div>
-              <Link href="/contact" className="block w-auto max-w-[250px] font-bold rounded-full text-white bg-red-600 transition duration-500 ease-in-out  hover:bg-slate-500 hover:text-white text-center py-3 px-4 mt-3">JOIN WITH US</Link>
+              <Link href="/schedule" className="block w-auto max-w-[250px] font-bold rounded-full text-white bg-red-600 transition duration-500 ease-in-out  hover:bg-slate-500 hover:text-white text-center py-3 px-4 mt-3">JOIN WITH US</Link>
             </div>
             <Image src={aboutimage} alt='about picture' />
-          </div>
-        </div>
-      </div>
-      <div className="class-section py-[6rem]">
-        <div className="container mx-auto px-4">
-          <div className="py-4">
-            <h1 className="class-title ps-6 py-4 font-bold text-white">OUR FEATURED CLASS</h1>
-            <h2 className="text-3xl mt-4 font-bold text-white">We Are Offering Best Flexible Classes</h2>
-          </div>
-          <div className="class-container grid md:grid-cols-2 lg:grid-cols-3 gap-7">
-            <div className="class-content">
-              <Image src={fitness} alt="pictue" className="image-class" />
-              <div className="class-text ">
-                <h1 className="font-bold text-3xl">FITNESS</h1>
-                <p className="py-2">Elevate Your Wellness with Premier <br /> Fitness Solutions</p>
-                <p className="bg-red-600 p-4 block w-auto max-w-[300px] mt-2">Wednesday: 9:00am-10:00am</p>
-              </div>
-              <h2 className="text-white ps-20 font-extrabold mt-10 class-title">FITNESS</h2>
-            </div>
-            <div className="class-content">
-              <Image src={boxing} alt="pictue" className="image-class" />
-              <div className="class-text ">
-                <h1 className="font-bold text-3xl">BOXING</h1>
-                <p className="py-2">Unleash Your Inner Strength with  Expert <br /> Boxing Training</p>
-                <p className="bg-red-600 p-4 block w-auto max-w-[300px] mt-2">Tuesday: 11:00am-12:00am</p>
-              </div>
-              <h2 className="text-white ps-20 font-extrabold mt-10 class-title">BOXING</h2>
-            </div>
-            <div className="class-content">
-              <Image src={body} alt="pictue" className="image-class" />
-              <div className="class-text ">
-                <h1 className="font-bold text-3xl">WORKOUT</h1>
-                <p className="py-2">Ignite Your Fitness Journey with Dynamic <br /> Workouts</p>
-                <p className="bg-red-600 p-4 block w-auto max-w-[300px] mt-2">THursday: 7:00am-8:00am</p>
-              </div>
-              <h2 className="text-white ps-14 font-extrabold mt-10 class-title">WORKOUT</h2>
-            </div>
           </div>
         </div>
       </div>
@@ -89,7 +52,7 @@ function about() {
             <h2 className="block w-auto max-w-[250px] font-bold bg-white text-red-500 rounded-full border-2 border-white text-center py-3 mb-5">Make an Appoitment</h2>
             <h1 className="font-extrabold text-[40px] leading-tight">Get a Free Consultancy Right Now Here!<br /> <span className="text-red-600">Fitness  Service For You</span></h1>
             <p className="text-xl py-4">Dedicated to Delivering Exceptional Fitness Services Just for You</p>
-            <Link href="/program" className="block w-auto max-w-[250px] font-bold  rounded-full bg-slate-700 transition duration-500 ease-in-out  hover:bg-red-600 text-white text-center py-3 px-4 mt-7">Learn More</Link>
+            <Link href="/classes" className="block w-auto max-w-[250px] font-bold  rounded-full bg-slate-700 transition duration-500 ease-in-out  hover:bg-red-600 text-white text-center py-3 px-4 mt-7">Learn More</Link>
           </div>
         </div>
       </div>

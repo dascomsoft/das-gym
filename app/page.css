@@ -113,7 +113,6 @@
   text-align: center;
   background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond semi-transparente */
   color: white;
-  cursor: pointer;
   transition: top 0.3s ease-in-out; /* Transition douce */
 }
 

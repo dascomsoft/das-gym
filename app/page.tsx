@@ -1,5 +1,8 @@
+
+
 import Link from "next/link";
 import Image from "next/image";
+
 import './page.css'
 import about from '../images/about.png'
 import run from '../images/run.png'
@@ -9,10 +12,8 @@ import body from '../images/body.jpg'
 import running from '../images/running.jpg'
 import crossfit from '../images/crossfit.jpg'
 import yoga from '../images/yoga.jpg'
-import work from '../images/work.png'
 import aboutimage from '../images/about-1.png'
 import grafiti from '../images/grafiti.svg'
-import backgrafiti from '../images/bg-grafiti.png'
 import timi6 from '../images/timi6.png'
 import timi7 from '../images/timi7.png'
 import timi8 from '../images/timi8.png'
@@ -29,7 +30,13 @@ import gall12 from '../images/gall12.png'
 import gall13 from '../images/gall13.png'
 import gall14 from '../images/gall14.png'
 
+
+
 export default function Home() {
+ 
+
+
+
   return (
     <div className="main text-white">
       <div className="home-header">
@@ -43,7 +50,7 @@ export default function Home() {
                 <p className="mt-4">Gymhen an unknown printer took a galley of type and <br />
                   It has survived unknown printercenturies.</p>
                 <br />
-                <Link href="/program" className="block w-auto max-w-[250px] text-black font-bold rounded-full bg-white transition duration-500 ease-in-out  hover:bg-red-600 hover:text-white text-center py-3 px-4 mt-7">JOIN WITH US</Link>
+                <Link href="/classes" className="block w-auto max-w-[250px] text-black font-bold rounded-full bg-white transition duration-500 ease-in-out  hover:bg-red-600 hover:text-white text-center py-3 px-4 mt-7">JOIN WITH US</Link>
 
               </div>
               <div>
@@ -150,7 +157,7 @@ export default function Home() {
                         </div>
                       </div>
                       <br />
-                      <Link href="/program" className="block w-auto max-w-[250px]  bg-red-600  transition duration-500 ease-in-out hover:bg-slate-600 text-white text-center py-3 px-4 mt-5  rounded-full">OUR PROGRAM</Link>
+                      <Link href="/classes" className="block w-auto max-w-[250px]  bg-red-600  transition duration-500 ease-in-out hover:bg-slate-600 text-white text-center py-3 px-4 mt-5  rounded-full">OUR PROGRAM</Link>
                     </div>
 
                     <div className="flex gap-10 p-14 home-image">
@@ -175,13 +182,13 @@ export default function Home() {
               </div>
               <h1 className="text-[40px] leading-tight font-bold text-white">We Will Give You Strength and Health</h1>
               <p className="text-xl py-8 text-white">Gymat an unknown printer took a galley type and scraey aretea bled make a type specimen book. May has survived not onlyive centuries but also the leap electronic.Gymatn unknown printer took a galley of type and scraey aretea.</p>
-              <Link href="/program" className="block w-auto max-w-[250px] font-bold rounded-full text-white bg-red-600 transition duration-500 ease-in-out  hover:bg-white hover:text-black text-center py-3 px-4 mt-3">JOIN WITH US</Link>
+              <Link href="/about" className="block w-auto max-w-[250px] font-bold rounded-full text-white bg-red-600 transition duration-500 ease-in-out  hover:bg-white hover:text-black text-center py-3 px-4 mt-3">JOIN WITH US</Link>
             </div>
             <Image src={aboutimage} alt='about picture' />
           </div>
         </div>
       </div>
-      <div className="class-section py-[6rem]">
+      <div className="class-section py-[3rem]">
         <div className="container mx-auto px-4">
           <div className="py-4">
             <h1 className="class-title ps-6 py-4 font-bold text-white">OUR FEATURED CLASS</h1>
@@ -355,7 +362,7 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <h1 className="font-extrabold text-[40px] leading-tight">We Are Always Providing Best <br /> <span className="text-yellow-300">Fitness  Service For You</span></h1>
             <p className="text-xl py-4">Dedicated to Delivering Exceptional Fitness Services Just for You</p>
-            <Link href="/program" className="block w-auto max-w-[250px] font-bold  rounded-full bg-slate-700 transition duration-500 ease-in-out  hover:bg-red-600 text-white text-center py-3 px-4 mt-7">JOIN WITH US</Link>
+            <Link href="/schedule" className="block w-auto max-w-[250px] font-bold  rounded-full bg-slate-700 transition duration-500 ease-in-out  hover:bg-red-600 text-white text-center py-3 px-4 mt-7">JOIN WITH US</Link>
           </div>
         </div>
       </div>
@@ -382,7 +389,7 @@ export default function Home() {
                   <p>Personal trainer</p>
                   <p>Cycling</p>
                   <br />
-                  <Link href="/contact" className='rounded-full w-full block text-center py-1  border-2 border-transparent text-black bg-white hover:bg-green-700 hover:border-transparent hover:text-white'>Book Now</Link>
+                  <Link href="/register" className='rounded-full w-full block text-center py-1  border-2 border-transparent text-black bg-white hover:bg-green-700 hover:border-transparent hover:text-white'>Book Now</Link>
                 </div>
               </div>
               <div className="pricing-bg-1 shadow-lg border-transparent rounded-xl cursor-pointer transition duration-700 ease-in-out hover:scale-105">
@@ -398,13 +405,13 @@ export default function Home() {
                   <p>Personal trainer</p>
                   <p>Cycling</p>
                   <br />
-                  <Link href="/contact" className='rounded-full w-full block text-center  py-1 border-transparant bg-white text-black hover:bg-green-700 hover:border-transparent hover:text-white'>Book Now</Link>
+                  <Link href="/register" className='rounded-full w-full block text-center  py-1 border-transparant bg-white text-black hover:bg-green-700 hover:border-transparent hover:text-white'>Book Now</Link>
                 </div>
               </div>
 
               <div className="pricing-bg-2 shadow-lg  border-transparent rounded-xl cursor-pointer transition duration-700 ease-in-out hover:scale-105">
                 <div className='text-white p-7'>
-                  <h3 className='py-2 text-2xl font-bold'>Advances</h3>
+                  <h3 className='py-2 text-2xl font-bold'>Expert</h3>
                   <p className="py-4">Financa dummy text of the printing and typesetting industry.</p>
                   <h6><span className='font-bold text-5xl text-red-500'>$200</span>/For 9 months</h6>
                 </div>
@@ -415,7 +422,7 @@ export default function Home() {
                   <p>Personal trainer</p>
                   <p>Cycling</p>
                   <br />
-                  <Link href="/contact" className='rounded-full w-full block text-center py-1 border-transparent bg-white text-black hover:bg-green-700 hover:border-transparent hover:text-white'>Book Now</Link>
+                  <Link href="/register" className='rounded-full w-full block text-center py-1 border-transparent bg-white text-black hover:bg-green-700 hover:border-transparent hover:text-white'>Book Now</Link>
                 </div>
               </div>
             </div>
@@ -607,42 +614,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="blog-section py-[6rem] bg-stone-100 text-black">
-        <div className="container mx-auto px-4">
-          <div className="relative mb-[5rem] w-full text-center flex flex-col items-center">
-            <p className="relative w-[200px] z-10 text-[16px] uppercase font-bold text-white ">LATEST BLOG</p>
-            <Image src={grafiti} alt='picture' className="w-[200px] absolute -top-[6px]" />
-            <h1 className="text-3xl font-bold mt-7">Our recent News</h1>
-            <p>DasGym an unknown printer took a galley of type and scrambled <br />make a type specimen book..</p>
-          </div>
-          <div className="blog-content grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="shadow-lg border-2 border-white p-8">
-              <h3 className="px-2 py-2 text-center rounded-full border-2 border-whiteblock w-auto max-w-[200px] ">22.03.2022</h3>
-              <h2 className="text-3xl font-semibold mt-4">Yoga For Everyone in 2023</h2>
-              <p className="py-[15px]">This is program designed to make the practice of yoga beneficial for people of all ages, abilities, and backgrounds.</p>
-              <Link href="/blog" className="block w-auto max-w-[200px] font-bold   bg-slate-700 transition duration-500 ease-in-out  hover:bg-red-600 text-white text-center py-3 px-4 mt-7">READ MORE</Link>
-            </div>
-            <div className="shadow-lg border-2 border-white p-8">
-              <h3 className="px-2 py-2 text-center rounded-full border-2 border-whiteblock w-auto max-w-[200px] ">22.03.2022</h3>
-              <h2 className="text-3xl font-semibold mt-4">Getting Back Into CrossFit After Vacation</h2>
-              <p className="py-[15px]">Learn how to ease back into your CrossFit routine after a vacation with tips and strategies for success.</p>
-              <Link href="/blog" className="block w-auto max-w-[200px] font-bold   bg-slate-700 transition duration-500 ease-in-out  hover:bg-red-600 text-white text-center py-3 px-4 mt-7">READ MORE</Link>
-            </div>
-            <div className="shadow-lg border-2 border-white p-8">
-              <h3 className="px-2 py-2 text-center rounded-full border-2 border-whiteblock w-auto max-w-[200px] ">22.03.2022</h3>
-              <h2 className="text-3xl font-semibold mt-4">Meet Fitness Ambassador Grace</h2>
-              <p className="py-[15px]">Get to know Grace, a fitness enthusiast and dedicated ambassador who is passionate about helping others reach their fitness goals..</p>
-              <Link href="/blog" className="block w-auto max-w-[200px] font-bold   bg-slate-700 transition duration-500 ease-in-out  hover:bg-red-600 text-white text-center py-3 px-4 mt-7">READ MORE</Link>
-            </div>
-          </div>
-        </div>
-      </div>
       <div className="notice-section py-[4rem]">
         <div className="container mx-auto px-4">
           <div className="notice-content">
             <h1 className="text-5xl font-bold">Need a Fitness Trainer?</h1>
             <p className="text-2xl font-semibold py-3"><span className="text-red-600">Call</span>: +123-456789</p>
-            <Link href="/program" className="block w-auto max-w-[200px] font-bold  text-white  bg-red-700 transition duration-500 ease-in-out  hover:bg-white hover:text-black text-center py-3 px-4 mt-7">READ MORE</Link>
+            <Link href="/classes" className="block w-auto max-w-[200px] font-bold  text-white  bg-red-700 transition duration-500 ease-in-out  hover:bg-white hover:text-black text-center py-3 px-4 mt-7">READ MORE</Link>
 
           </div>
         </div>

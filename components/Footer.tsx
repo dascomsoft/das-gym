@@ -20,13 +20,11 @@ const Footer = () => {
                             <p><Link className="hover:text-yellow-500"  href="/schedule">Schedule</Link></p>
                             <p><Link className="hover:text-yellow-500"  href="/contact">Contact</Link></p>
 
-
                         </div>
                         <div className="footer-detail">
                             <h5 className="font-extrabold text-2xl mb-3">OUR CLASSES</h5>
                             <p><Link className="hover:text-yellow-500"  href="#">Body Building</Link></p>
                             <p><Link className="hover:text-yellow-500"  href="#">Running</Link></p>
-                            <p><Link href="#">Make Up</Link></p>
                             <p><Link className="hover:text-yellow-500"  href="#">Fitness</Link></p>
                             <p><Link className="hover:text-yellow-500"  href="#">Boxing</Link></p>
                             <p><Link className="hover:text-yellow-500"  href="#">Workout</Link></p>

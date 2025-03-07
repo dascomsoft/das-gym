@@ -9,7 +9,7 @@ import grafiti from '../../images/grafiti.svg'
 function pricing() {
   return (
     <div className='pricing-main'>
-      <div className="header-section py-[10rem] text-white">
+      <div className="header-section pt-[9rem] pb-[4rem] text-white">
         <div className="container mx-auto px-4">
           <div className="header-content">
             <h1 className="text-5xl font-bold ">Flexible <span className='text-yellow-300'>Menbership</span> Plans</h1>
@@ -63,7 +63,7 @@ function pricing() {
 
               <div className="pricing-bg-2 shadow-lg  border-transparent rounded-xl cursor-pointer transition duration-700 ease-in-out hover:scale-105">
                 <div className='text-white p-7'>
-                  <h3 className='py-2 text-2xl font-bold'>Advances</h3>
+                  <h3 className='py-2 text-2xl font-bold'>Expert</h3>
                   <p className="py-4">Financa dummy text of the printing and typesetting industry.</p>
                   <h6><span className='font-bold text-5xl text-red-500'>$200</span>/For 9 months</h6>
                 </div>
