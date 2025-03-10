@@ -115,7 +115,7 @@ const TrainerProfile = () => {
   if (!trainerData) return <p>You must be logged in as a trainer.</p>;
 
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center pt-[9rem]">
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center pt-[10rem] pb-[3rem]">
       <div className="max-w-7xl w-full bg-white shadow-lg rounded-lg p-8">
         {/* Header */}
         <div className="text-center mt-10">
