@@ -4,12 +4,12 @@ import { useState, useEffect } from "react";
 import { addDoc, collection } from "firebase/firestore";
 import { db } from "../../firebaseConfig"; // Firebase
 import { sendEmail } from "../../utils/sendEmail";
-import { auth } from "../../firebaseConfig"; // Firebase Authentication
+import { auth } from "../../firebaseConfig"; 
 import { onAuthStateChanged } from "firebase/auth";
 
 const BookingForm = () => {
     const [name, setName] = useState("");
-    const [email, setEmail] = useState(""); // Stocke l'email de l'utilisateur connecté
+    const [email, setEmail] = useState(""); 
     const [phone, setPhone] = useState("");
     const [gymClass, setGymClass] = useState("");
     const [selectedDay, setSelectedDay] = useState(""); // Ajout du jour sélectionné
