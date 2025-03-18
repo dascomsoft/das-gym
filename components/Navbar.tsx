@@ -156,7 +156,11 @@ const Navbar = () => {
                   </Link>
                   <Link className="head-link" href="/register">
                     Register
+                  </Link> 
+                  <Link className="head-link" href="/login">
+                    Login
                   </Link>
+
                 </>
               )}
             </nav>
