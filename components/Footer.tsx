@@ -15,21 +15,19 @@ const Footer = () => {
                             <p><Link className="hover:text-yellow-500" href="/">Home</Link></p>
                             <p><Link className="hover:text-yellow-500"  href="/about">About Us</Link></p>
                             <p><Link className="hover:text-yellow-500" href="/pricing">Pricing</Link></p>
-                            <p><Link className="hover:text-yellow-500"  href="/program">Program</Link></p>
                             <p><Link className="hover:text-yellow-500"  href="/gallery">Gallery</Link></p>
                             <p><Link className="hover:text-yellow-500"  href="/schedule">Schedule</Link></p>
-                            <p><Link className="hover:text-yellow-500"  href="/contact">Contact</Link></p>
 
                         </div>
                         <div className="footer-detail">
                             <h5 className="font-extrabold text-2xl mb-3">OUR CLASSES</h5>
-                            <p><Link className="hover:text-yellow-500"  href="#">Body Building</Link></p>
-                            <p><Link className="hover:text-yellow-500"  href="#">Running</Link></p>
-                            <p><Link className="hover:text-yellow-500"  href="#">Fitness</Link></p>
-                            <p><Link className="hover:text-yellow-500"  href="#">Boxing</Link></p>
-                            <p><Link className="hover:text-yellow-500"  href="#">Workout</Link></p>
-                            <p><Link className="hover:text-yellow-500"  href="#">Yoga</Link></p>
-                            <p><Link className="hover:text-yellow-500"  href="#">CrossFit</Link></p>
+                            <p>Body Building</p>
+                            <p>Running</p>
+                            <p>Fitness</p>
+                            <p>Boxing</p>
+                            <p>Workout</p>
+                            <p>Yoga</p>
+                            <p>CrossFit</p>
                         </div>
                         <div className="section-footer-detail">
                             <div className="section-footer-text">

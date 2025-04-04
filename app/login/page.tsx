@@ -50,7 +50,7 @@ const Login = () => {
         <h1 className="text-2xl font-bold text-center mb-4 text-black">Login here</h1>
 
         <form onSubmit={handleLogin} className="space-y-4">
-          {error && <p className="text-red-500">{error}</p>}
+          {error && <p className="text-red-500">Erreure lors de la connection</p>}
 
           <div>
             <label htmlFor="email" className="block text-sm font-semibold text-gray-600">

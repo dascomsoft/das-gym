@@ -31,33 +31,33 @@ function program() {
       </div>
       <div className="class-section py-[6rem]">
         <div className="container mx-auto px-4">
-        <div className="relative mb-[5rem] w-full text-center flex flex-col items-center">
+          <div className="relative mb-[5rem] w-full text-center flex flex-col items-center">
             <p className="relative w-[200px] z-10 text-[16px] uppercase font-bold text-white ">OUR FEATURED CLASS</p>
             <Image src={grafiti} alt='picture' className="w-[200px] absolute -top-[6px]" />
             <h1 className="text-3xl font-bold mt-7 text-white">We Are Offering Best Flexible Classes
             </h1>
             <p className='pt-3 text-white'>Expert team of coaches helps you succeed in any goal,personalized <br /> guidance and motivation provided!</p>
           </div>
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {classesBox.map((cls) => (
-            <Link key={cls.id} href={`/classes/${cls.id}`} passHref>
-              <div className="bg-white shadow-lg rounded-lg overflow-hidden cursor-pointer hover:shadow-xl transition-shadow duration-300">
-                <Image
-                  src={cls.image}
-                  alt={cls.title}
-                  className="w-full h-48 object-cover"
-                />
-                <div className="p-6">
-                  <h2 className="text-2xl font-bold text-gray-800">{cls.title}</h2>
-                  <p className="mt-2 text-gray-600">{cls.description}</p>
-                  <p className="mt-4 bg-red-600 text-white p-2 rounded inline-block">
-                    {cls.schedule}
-                  </p>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {classesBox.map((cls) => (
+              <Link key={cls.id} href={`/classes/${cls.id}`} passHref>
+                <div className="bg-white shadow-lg rounded-lg overflow-hidden cursor-pointer hover:shadow-xl transition-shadow duration-300">
+                  <Image
+                    src={cls.image}
+                    alt={cls.title}
+                    className="w-full h-48 object-cover"
+                  />
+                  <div className="p-6">
+                    <h2 className="text-2xl font-bold text-gray-800">{cls.title}</h2>
+                    <p className="mt-2 text-gray-600">{cls.description}</p>
+                    <p className="mt-4 bg-red-600 text-white p-2 rounded inline-block">
+                      {cls.schedule}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </Link>
-          ))}
-        </div>
+              </Link>
+            ))}
+          </div>
 
         </div>
       </div>
