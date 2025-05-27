@@ -21,3 +21,5 @@ As a frontend developer, I designed and developed an intuitive interface for the
 
 This project provides an effective and user-friendly solution for gym owners, coaches, and clients, ensuring a well-structured and engaging fitness experience.
 
+LIVE DEMO LINK , CLICK THE FOLLOWING LINK : https://das-gym.vercel.app/
+
